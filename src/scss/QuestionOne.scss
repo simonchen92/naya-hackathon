@@ -1,0 +1,19 @@
+.question-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.options {
+  display: flex;
+  a {
+    margin: 1em;
+    padding: 1em;
+    text-decoration: none;
+    color: black;
+    &:hover {
+      background-color: aquamarine;
+    }
+  }
+}

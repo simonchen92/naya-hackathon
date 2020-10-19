@@ -1,0 +1,45 @@
+.product-use-prompt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h2,
+  p {
+    margin: 10px 0 0 0;
+  }
+}
+
+.option-five {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  .product-usage {
+    justify-content: space-evenly;
+    margin: 50px;
+    padding: 50px;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    &:hover {
+      background-color: aquamarine;
+    }
+  }
+}
+
+.question-five {
+  display: flex;
+  flex-direction: column;
+  .submit-button {
+    background-color: black;
+    color: white;
+    align-self: center;
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

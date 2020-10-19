@@ -1,0 +1,29 @@
+.question-prompt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  h2,
+  p {
+    margin: 10px 0 0 0;
+  }
+}
+
+.option-three {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  .furniture-location {
+    justify-content: space-evenly;
+    margin: 50px;
+    padding: 50px;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    &:hover {
+      background-color: aquamarine;
+    }
+  }
+}
